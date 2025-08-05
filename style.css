@@ -1,0 +1,52 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 0;
+  /* width:500px; */
+}
+
+.container {
+  /* max-width: 800px; */
+  margin: 40px 40px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.contest {
+  background-color: #f8f9fa;
+  padding: 15px;
+  margin: 15px 0;
+  border-left: 5px solid #007bff;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.contest:hover {
+  background-color: #eef3ff;
+}
+
+.contest a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.site {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 4px;
+}
+
+.days-left {
+  margin-top: 6px;
+  color: #444;
+}

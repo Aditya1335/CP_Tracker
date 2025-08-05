@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Coding Contest Tracker",
+  "description": "Track upcoming coding contests from Codeforces, LeetCode, CodeChef, etc.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "128": "icon.png"
+  }
+}
